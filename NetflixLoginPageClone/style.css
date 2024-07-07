@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* background-image: url(background.jpg); */
+    /* z-index: -1; */
+
+}
+.netflix-box{
+    height: 76px;
+    background-color: black;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo{
+    background-color: black;
+    background-image: url(Netflix_Logo_PMS.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    height: 50px;
+    width: 110px;
+
+}  
+.outer{
+    background-color:;
+    height: 741px;
+}
+.inner{
+    background-color: #000000b3;
+    height: 741px;
+    margin-left: 236px;
+    margin-right: 236px;
+    padding-left: 51px;
+    padding-right: 51px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.sign-in{
+    background-color: antiquewhite;
+    height: 42.4px;
+    width: 314px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#FFFFFF;
+    font-weight: 900;
+    font-size:100%;
+
+}

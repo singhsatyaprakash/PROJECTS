@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------------------------------------------------------------- main */
+.content{
+    margin: 10px 50px 0px 50px;
+}
+.content .container_outer{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns:repeat(12,1fr);
+    row-gap: 10px;
+    column-gap: 40px;
+    padding:15px 40px 15px 40px ;
+}
+.content .container_outer .heading{
+    grid-row: 1/2;
+    grid-column: 1/11;
+    font-family: "Kalam", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.content .container_outer .see_all{
+    grid-row: 1/2;
+    grid-column: 11/13;
+    font-size: 20px;
+    justify-self:self-end;
+}
+.content .container_outer .rate{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.content .container_outer .rate img{
+    height:350px ;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+.content .container_outer .rate p,h3{
+    padding: 5px;
+    margin: 0;
+}
+.content .container_outer .rate #more{
+    display: flex;
+    justify-self:flex-end;
+    align-self:flex-end;
+    padding:0px 15px 5px 0px;
+}
+.content .container_outer #rate1{
+
+    grid-column: 1/4;
+}
+.content .container_outer #rate2{
+
+    grid-column: 4/7;
+}
+.content .container_outer #rate3{
+
+    grid-column: 7/10;
+}
+.content .container_outer #rate4{
+
+    grid-column: 10/13;
+}
+/* -----------------hover------------------------- */
+.content .container_outer .rate:hover{
+    box-shadow: 0px 0px 8px black;
+    transform: scale(1.05);
+}
+
+
+/* Responsive------------------------*/
+@media(max-width:1120px){
+    .content .container_outer .heading{
+        grid-row: 1/2;
+        grid-column: 1/8;
+    }
+    .content .container_outer .see_all{
+        grid-row: 1/2;
+        grid-column: 8/13;
+        font-size: 20px;
+        justify-self:self-end;
+    }
+    /* .content .container_outer .rate img{
+        height:350px ;
+        width: 100%;
+        padding: 5px;
+        border-radius: 20px;
+    } */
+    /* .content .container_outer .rate p,h3{
+        padding: 5px;
+        margin: 0;
+    } */
+    /* .content .container_outer .rate #more{
+        display: flex;
+        justify-self:flex-end;
+        align-self:flex-end;
+        padding:0px 15px 5px 0px;
+    } */
+    .content .container_outer #rate1{
+        grid-row:2/3;
+        grid-column: 1/7;
+    }
+    .content .container_outer #rate2{
+        grid-row: 2/3;
+        grid-column: 7/13;
+    }
+    .content .container_outer #rate3{
+        grid-row: 3/4;
+        grid-column: 1/7;
+    }
+    .content .container_outer #rate4{
+        grid-row: 3/4;
+        grid-column: 7/13;
+    }
+}
+

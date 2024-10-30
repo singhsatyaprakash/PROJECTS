@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar .logo b{
+    color: #f84464;
+}
+.navbar .logo{
+    margin-left: 10px;
+    font-family: "Kalam", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+.navbar .signup button{
+    font-size:20px ;
+    padding: 0px 5px 0px 5px;
+}
+.navbar .login button{
+    font-size:20px ;
+    padding: 0px 5px 0px 5px;
+}
+.navbar{
+    height: 64px;
+    display:grid;
+    align-items: center;
+    background-color:black;
+    /* opacity: 0.85; */
+    color: white;
+    font-size: 20px;
+    grid-template-columns:repeat(11,auto);
+    position: sticky;
+}
+.navbar div a{
+    place-self:center;
+    text-decoration: none;
+    color: white;
+}
+/* hover */
+.navbar div:hover{
+    transform: scale(1.1);
+}

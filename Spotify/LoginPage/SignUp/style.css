@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.logo img{
+    height:40px;
+    width:40px;
+}
+.logo{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px 24px;
+}
+.container_outer{
+    /* background-color:rgba(0,0,0,.97); */
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    color: white;
+    margin: 0 25em;
+}
+.container{
+    height: 100%;
+    width: 50%;
+}
+.container_outer .container .listening{
+    font-family: "Kalam", serif;
+    font-weight: 900;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+}
+.container_outer .container .form .details level{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.container_outer .container .form .details #email{
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    /* background-color: black; */
+    color: white;
+
+}
+.container_outer .container .form .details #email:hover{
+    box-shadow: 0px 0px 2px white;
+}
+.phone a{
+    color: rgb(68, 228, 68);
+    font-size: 18px;
+}
+.form button{
+    background-color: rgb(68, 228, 68);
+    height: 3em;
+    width: 100%;
+    border: 2px solid rgb(68, 228, 68);
+    border-radius: 25px;
+    margin: 10px;
+    font-weight:bold;
+    letter-spacing: 3px;
+    font-size: 20p;
+}
+.form button:hover{
+    box-shadow: 2px 2px 10px white;
+    transform: scale(1.02);
+}
+.or{
+    /* background-color: black; */
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.other_signup img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.other_signup button{
+    /* background-color: black; */
+    border: 2px solid white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding: 5px;
+    align-items: center;
+    width: 100%;
+    margin:10px 5px;
+}
+.other_signup button:hover{
+    box-shadow: 0px 0px 6px white;
+    transform: scale(1.02);
+}
+.other_signup a{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+}
+.container .already{
+    font-size: 20px;
+    padding: 5px;
+}
+.container .already a{
+    color: white;
+    font-weight: 550;
+}
+footer .terms{
+    /* background-color: black; */
+    text-align: center;
+    color: white;
+    margin:5px 500px;
+    padding:25px;
+}
+.terms a{
+    color: white;
+}
+

@@ -1,0 +1,136 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    border-radius: 50%;
+    height: 120px;
+}
+header h1{
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+header p{
+    font-size: 20px;
+}
+.JSJ button{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5%;
+    font-size: 1rem;
+    box-shadow:-3px 3px 3px black;
+    cursor: pointer;
+    
+}
+.JSJ button:hover{
+    background-color: papayawhip;
+    color:black;
+    font-weight: bold;
+    border: 1px solid orange;
+    box-shadow:-3px 3px 3px black;
+    transform: scale(1.1);
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0056b3;
+    padding: 10px;
+    cursor: pointer;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav .menu{
+    background:transparent;
+    border: 0px;
+    font-size: 30px;
+    color: white;
+}
+nav .login{
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.container{
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.hero{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e3f2fd;
+    margin-bottom: 20px;
+}
+.hero h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 1.2em;
+}
+.features,.Doubts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.feature,.Doubt{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    max-width: 300px;
+    text-align: center;
+}
+.feature:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.feature h3{
+    color: #007BFF;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Doubt h3{
+    color: #007BFF;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

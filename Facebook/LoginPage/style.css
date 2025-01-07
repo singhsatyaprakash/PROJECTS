@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F2F3F5;
+    
+}
+body{
+    font-family: "DM Serif Text", serif;
+}
+.container{
+    height: 70vh;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    justify-content: center;
+}
+.facebook{
+    width: 50%;
+}
+.facebook h1{
+    height: 106px;
+    font-size:5rem;
+    color: blue;
+    padding:5rem 0rem 1rem 0.5rem;
+}
+.facebook p{
+    font-size:2rem;
+    padding-left: 0.5rem;
+}
+.form_box{
+    margin: 1rem;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form_box #form{
+    border: 2px solid white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    background-color:white;
+}
+.form_in{
+    margin: 1rem;
+    border-radius: 0.25rem;
+    height: 3rem;
+    font-size: 16px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 0px 3px whitesmoke;
+    padding-left: 1rem;
+    font-size:18px;
+}
+#login{
+    background-color:#0866ff;
+    color: #ffff;
+    text-align: center;
+    font-weight:bolder;
+}
+#create{
+    background-color: #42b724;
+    width: 50%;
+    align-self: center;
+    padding:0.25rem;
+    color: #fff;
+    font-weight: bolder;
+
+}
+#form a{
+    text-align: center;
+    text-decoration: none;
+    background-color:white;
+    margin-bottom: 1.5rem;
+}
+hr{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#celebrity {
+    text-decoration: none;
+    font-weight: 550;
+    color: black;
+}
